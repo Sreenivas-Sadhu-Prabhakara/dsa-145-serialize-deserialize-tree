@@ -12,6 +12,13 @@ Preorder, but writing a `#` for every nil child. Those markers change the game: 
 
 **Complexity:** O(n) both ways; encoded size O(n).
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
